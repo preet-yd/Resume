@@ -1,0 +1,72 @@
+*{
+    /* color: white; */
+}
+a[href^='mailto']::before {
+    content: '📧 ';
+}
+a[href^="tel"]::after{
+    content: '📞';
+}
+  body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0f141e;
+  }
+a{
+    /* color: white; */
+}
+address{
+    color: orange;
+    text-align: right;
+    font-size: small;
+    padding-right: 20px;
+}
+header{
+    width: 36rem;
+}
+h3{
+    font-size: 30px;
+    margin-bottom: 0;
+    color: orange;
+}
+.skills{
+    color: white;
+}
+.fname{
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+.lname{
+    color: white;
+    margin-top: 0;
+}
+.education{
+    margin-top: 50px;
+    color: white;
+}
+.date{
+    margin-top: 0;
+    font-size: 10px;
+}
+.course{
+    margin-bottom: 0;
+    text-align: left;
+}
+.training{
+    margin-top: 40px;
+    color: white;
+}
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 18px; /* Adjust the font size for smaller screens */
+    }
+    header {
+        width: 100%; /* Make the header full width */
+    }
+    .fname, .lname {
+        font-size: 3rem; /* Reduce the font size for the name */
+    }
+}
