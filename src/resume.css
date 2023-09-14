@@ -1,6 +1,3 @@
-*{
-    /* color: white; */
-}
 a[href^='mailto']::before {
     content: '📧 ';
 }
@@ -14,9 +11,6 @@ a[href^="tel"]::after{
     align-items: center;
     background-color: #0f141e;
   }
-a{
-    /* color: white; */
-}
 address{
     color: orange;
     text-align: right;
