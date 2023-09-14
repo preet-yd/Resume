@@ -71,8 +71,8 @@ h3{
     margin-bottom: 0;
     text-align: left;
 }
-.training{
-    margin-top: 40px;
+.Training{
+    margin-top: 3rem;
     color: white;
 }
 @media screen and (max-width: 600px) {
