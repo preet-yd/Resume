@@ -4,7 +4,7 @@ a[href^='mailto']::before {
 a[href^="tel"]::after{
     content: '📞';
 }
-  body{
+body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
@@ -17,8 +17,28 @@ address{
     font-size: small;
     padding-right: 20px;
 }
-header{
+a{
+    color: white;
+}
+
+header,main{
     width: 36rem;
+}
+.hr1{
+    width: 8rem;
+    text-decoration: none;
+}
+.hr1{
+    width: 8rem;
+    margin-right: 100%;
+}
+.hr2{
+    width: 13rem;
+    margin-right: 100%;
+}
+.hr3{
+    width: 9rem;
+    margin-right: 100%;
 }
 h3{
     font-size: 30px;
@@ -27,11 +47,13 @@ h3{
 }
 .skills{
     color: white;
+
 }
 .fname{
     color: white;
     font-size: 5rem;
     margin-bottom: 0;
+    margin-top: 0;
 }
 .lname{
     color: white;
@@ -59,6 +81,9 @@ h3{
     }
     header {
         width: 100%; /* Make the header full width */
+    }
+    main{
+        width: 100%;
     }
     .fname, .lname {
         font-size: 3rem; /* Reduce the font size for the name */
