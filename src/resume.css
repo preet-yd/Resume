@@ -29,6 +29,10 @@ header,main{
     width: 8rem;
     margin-right: 100%;
 }
+.list{
+    font-size: 19px;
+    text-decoration: none;
+}
 .hr2{
     width: 13rem;
     margin-right: 100%;
@@ -59,6 +63,7 @@ h3{
 .education{
     margin-top: 50px;
     color: white;
+    font-size: 19px;
 }
 .date{
     margin-top: 0;
